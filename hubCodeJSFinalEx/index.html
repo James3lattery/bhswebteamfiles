@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/home.css" rel="stylesheet">
-
+	<script src="js/jquery-1.11.3.min.js"></script>
+      <script src="script.js"></script>
+      <script src="js/bootstrap.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -17,36 +18,38 @@
 		<![endif]-->
   </head>
   <body>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-1.11.3.min.js"></script>
-      <script src="script.js"></script>
-      <script src="js/bootstrap.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-      <center>
-      <h1>WELCOME</h1>
-      <hr width="600px" color="white">
-      </center>
-      <nav>
-      <div class="row1">
-          <div class="navItem"></div>
-          <div class="navItem"><center><img class="navImg" src="img/NavGear.png"></center></div>
-          <div class="navItem"></div>
-          </div><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <div class="row2">
-          <div class="navItem"></div>
-          <div class="navItem"></div>
-          <div class="navItem"></div>
-          </div><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <div class="row3">
-          <div class="navItem"></div>
-          <div class="navItem"></div>
-          <div class="navItem"></div>
-          </div>
-          
-      </nav>
-	
+	<nav>
+    <h1>TITLE</h1>
+    	<ul>
+        	<li><a class="link active" href="#home">Home</a></li><li>
+            <a class="link" href="#aboutus">About Us</a></li><li>
+            <a class="link" href="#">Gallery</a></li><li>
+           <a class="link" href="#"> Contact Us</a></li><li>
+            <a class="link" href="#">More</a></li>
+           </ul>
+     </nav>
+    <section id="home">
+	<span>SOME MAIN TEXT HERE</span>
+        <a href="#"><div class="linkBox">LINK</div></a>
+    </section>
+    <section id="aboutus">
+        <br /><br />
+        <center><span><span id="bout">ABOUT US</span>
+            <h3>Maecenas augue justo, vestibulum at faucibus eget, tempor non nulla. In imperdiet tellus et enim condimentum lacinia rhoncus vel nibh. Aliquam consectetur felis sit amet quam semper faucibus. Donec id porttitor tortor. Donec sed turpis mi. Morbi rutrum ex rhoncus, maximus arcu vitae, rhoncus libero. Vestibulum sit amet feugiat dolor, sed fermentum urna. In diam justo, finibus a sem vel, mattis aliquam urna. In porta augue augue. Duis vitae ullamcorper sem, eu convallis nisi.</h3>
+            </center>
+<table>
+    
+    <tr>
+        <td><div class="imgHovEff"><img src="http://placehold.it/200x"100></div></td>
+        <td><div class="imgHovEff"><img src="http://placehold.it/200x"100></div></td>
+        <td><div class="imgHovEff"><img src="http://placehold.it/200x"100></div></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            </table>
+    </section>
   </body>
-    <script>
-
-    </script>
 </html>
