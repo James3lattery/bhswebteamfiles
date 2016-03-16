@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    
+
+    <title>Code Recources</title>
+    <link type="text/css" href="sytle.css" rel="stylesheet" />
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+  <ul class="acc">
+    <li>
+      <button class="acc_ctrl"><h2>Design / Icons</h2></button>
+      <div class="acc_panel">
+        <ul>
+          <li><a href="http://fortawesome.github.io/Font-Awesome/icons/"><strong>FONT AWESOME</strong></a> - This is a open source great icon database, easy to 'install' and works extreamly well!</li>  
+          <li><a href="https://design.google.com/icons/"><strong>GOOGLE ICON ARCHIVE</strong></a> - Just about what you would expect out of google, only the best.</li>  
+        </ul>
+      </div>
+    </li>
+    <li>
+      <button class="acc_ctrl"><h2>Code Refrences / Lookups</h2></button>
+      <div class="acc_panel">
+        <p>The Ford Motor Company (commonly referred to as simply Ford) is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit. It was founded by Henry Ford and incorporated on June 16, 1903.</p>
+      </div>
+    </li>
+    <li>
+      <button class="acc_ctrl"><h2>Text Editors</h2></button>
+      <div class="acc_panel">
+        <p>Toyota Motor Corporation is a Japanese automotive manufacturer which was founded by Kiichiro Toyoda in 1937 as a spinoff from his father's company Toyota Industries, which is currently headquartered in Toyota, Aichi Prefecture, Japan.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+    
+        <script>
+      $(function() {
+  $('.acc_ctrl').on('click', function(e) {
+    e.preventDefault();
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+      $(this).next()
+      .stop()
+      .slideUp(300);
+    } else {
+      $(this).addClass('active');
+      $(this).next()
+      .stop()
+      .slideDown(300);
+    }
+  });
+});
+      //@ sourceURL=pen.js
+    </script>
+
+    
+    
+    
+  </body>
+</html>
