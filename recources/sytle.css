@@ -2,9 +2,11 @@
 
 html, body {
   background: #C5CBD1;
-  height: 100%;
+
   margin: 0;
   padding: 0;
+    color: #282F35;
+  font-family: 'Josefin Sans', Arial, sans-serif;
   width: 100%;
 }
 
@@ -16,6 +18,12 @@ html, body {
     text-decoration: none;
     color: #666;
     
+}
+h1 {
+  color: #282F35;
+  font-family: 'Josefin Sans', Arial, sans-serif;
+ 
+
 }
 
 h2 {
