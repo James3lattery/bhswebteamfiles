@@ -1,0 +1,9 @@
+input, button {
+  margin: 10px;
+}
+button {
+	width: 100% !important;
+}
+body {
+	background: #fafafa;
+}
